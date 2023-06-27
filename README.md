@@ -1,0 +1,1 @@
+First real project will be a baseball instructor website. Will be showcasing great design alignment and flavor.
