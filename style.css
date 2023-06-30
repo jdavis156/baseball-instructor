@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+.logo {
+    
+    
+    margin-left: 150px;
+    display: flex;
+}
+.header {
+    
+    height: 80px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    margin-left: 150;
+    color: #FFD700;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    }
+
+.container1 {
+    background-color: #0D2235;
+    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+ 
+}
+.title {
+    color: white;
+    max-width: 400px;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p-text {
+    color: whitesmoke;
+    margin-left: 150px;
+    max-width: 400px; 
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        
+}
+.custom-button {
+    background-color: #0096FF;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 150px;
+    max-width: fit-content;
+  }
+  .custom-button,
+.custom-button span {
+    color: white;
+}
+
+.yankimg {
+    width: 400px;
+    height: 200px;
+   display: flex;
+   position: relative;
+   top: -235px;
+   align-self: last baseline;
+   margin-right: 150px;
+
+    
+    
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    
+        
+    
+    
+}
+.info {
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container2 {
+    display: flex;
+    height: 40vh;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+  
+
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #0096FF;
+    border-radius: 10px;
+  }
+
+  .images div {
+    text-align: center;
+}
+
+.images p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    max-width: 200px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container3 {
+    height: 40vh;
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+.quote {
+    max-width: 1000px;
+    font-size: 36px;
+    color: #1f2937;
+}
+.signature
+{
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 480px;
+    }
+.container4 {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}   
+.box {
+    background-color: #0096FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    gap: 500px;
+}
+.action {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    
+    
+    
+}
+/*.pitch {
+    font-size: 15px;
+    display: flex;
+    color: white;
+    align-self: last baseline;
+    position: absolute;
+    bottom: 90px;
+    left: 472px;
+    
+    }*/
+    .pitch {
+        font-size: 15px;
+        display: flex;
+        color: white;
+        align-self: flex-end;
+        position: absolute;
+        bottom: 90px;
+        left: 37.6%;
+        transform: translateX(-50%);
+       
+      }
+      
+      @media (max-width: 768px) {
+        .box {
+          width: 90%;
+          max-width: 500px;
+        }
+      
+        .pitch {
+          font-size: 13px;
+          bottom: 10px;
+        }
+      }
+      
+
+
+
+.custom-button2 {
+    background-color: #0096FF;
+    color: white !important;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 150px;
+    max-width: fit-content;
+  }
+
+  .custom-button2,
+  .custom-button2 span {
+      color: white;
+  }
+  
+  .footer {
+    background-color: #0D2235;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .copyright {
+    color: white;
+  }
+
+
+
+
+
+  
+
